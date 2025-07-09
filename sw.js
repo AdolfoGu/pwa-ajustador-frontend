@@ -1,0 +1,4 @@
+// Service Worker básico
+self.addEventListener("fetch", (e) => {
+  e.respondWith(fetch(e.request));
+});
