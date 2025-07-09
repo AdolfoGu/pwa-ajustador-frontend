@@ -1,3 +1,6 @@
+<script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+
+<script src="app.js" defer></script>
 // Configurar mapa
 const map = L.map('map').setView([-34.6037, -58.3816], 14);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
